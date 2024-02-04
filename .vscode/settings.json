@@ -1,0 +1,4 @@
+{
+    "cpp.creator.headerFileContentPreset": "#ifndef __{{*CLASSNAMEUPPER*}}_H__\n#define __{{*CLASSNAMEUPPER*}}_H__\n\n#pragma once\nnamespace VRcz\n{\n    class {{*CLASSNAME*}}\n    {\n    public:\n        {{*CLASSNAME*}}();\n        ~{{*CLASSNAME*}}();\n\n    private:\n\n    };\n}\n#endif //__{{*CLASSNAMEUPPER*}}_H__",
+    "cpp.creator.sourceFileContentPreset": "#include \"{{*HEADERFILENAME*}}\"\n\nnamespace VRcz\n{\n    {{*CLASSNAME*}}::{{*CLASSNAME*}}()\n    {\n\n    }\n\n    {{*CLASSNAME*}}::~{{*CLASSNAME*}}()\n    {\n\n    }\n}\n"
+}
