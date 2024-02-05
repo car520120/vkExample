@@ -17,6 +17,10 @@
     其它平台直接参考 vulkan-tutorial 就可以的了
 # Building
     git clone https://github.com/car520120/vkExample.git
+
+    编译工具及文档
+    https://github.com/xmake-io/xmake/releases
+    https://xmake.io/#/
     
     打开 vkExample 目录
     需要修改 xmake.lua  工程文件
